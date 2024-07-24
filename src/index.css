@@ -1,0 +1,147 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background: #f8f8f8;
+  border-bottom: 2px solid #eee;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.project-container,
+.project-img {
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  max-height: 70vh;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: white;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  flex-shrink: 0;
+}
+
+.project-container:hover,
+.project-img:hover {
+  transform: scale(1.02);
+}
+
+.project-container img,
+.project-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 70vh;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.project-link:hover {
+  transform: scale(1.10);
+}
+
+.project-details-container {
+  position: relative;
+  padding: 2px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.project-details-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-detail {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  min-width: 300px;
+  max-width: 400px;
+  max-height: 75vh;
+  margin: 0 10px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: auto;
+  flex-shrink: 0;
+  white-space: normal;
+}
+
+.project-image,
+.project-demo,
+.special-feature-image {
+  width: 100%;
+  height: auto;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+}
