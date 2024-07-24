@@ -97,8 +97,15 @@ function App() {
 
   return (
     <div className="App text-center">
-      <header className="flex justify-between items-center h-40 bg-gray-100 border-b-2 border-gray-200 p-4">
-        <div className="flex-1 text-left pl-5">
+      <header className="flex flex-col md:flex-row justify-between items-center h-auto md:h-40 bg-gray-100 border-b-2 border-gray-200 p-4">
+        <div className="flex-1 text-center mb-4 md:mb-0">
+          <h1 className="text-4xl font-bold">Jason Cornell</h1>
+          <p className="text-xl">Full Stack Engineer</p>
+        </div>
+        <div className="flex-1 flex justify-center md:justify-center mb-4 md:mb-0">
+          <img src={profilePic} alt="Jason Cornell" className="w-24 h-24 md:w-36 md:h-36 rounded-full object-cover" />
+        </div>
+        <div className="flex-1 text-left md:pl-5">
           <h2 className="text-2xl font-semibold mb-2">Professional Experience</h2>
           <ul>
             <li>
@@ -112,13 +119,6 @@ function App() {
               <span className="text-sm">Svelte.js, Node.js, OpenAI, AzureNLP</span>
             </li>
           </ul>
-        </div>
-        <div className="flex-1 text-center">
-          <h1 className="text-4xl font-bold">Jason Cornell</h1>
-          <p className="text-xl">Full Stack Engineer</p>
-        </div>
-        <div className="flex-1 flex justify-center">
-          <img src={profilePic} alt="Jason Cornell" className="w-36 h-36 rounded-full object-cover ml-5" />
         </div>
       </header>
       {showDetails ? (
@@ -142,6 +142,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
