@@ -36,8 +36,8 @@ header {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
-  padding-top: 6rem;
-  border-top: 4px solid red;
+  padding-top: 1.5rem;
+  border-top: none;
 }
 
 .project-container:hover {

@@ -38,6 +38,7 @@ body {
 .project-details-container {
   position: relative;
   padding: 2px;
+  overflow-x: auto;
   overflow-y: visible;
 }
 
