@@ -11,9 +11,9 @@ header {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -24,6 +24,8 @@ header {
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-container:hover {
@@ -32,15 +34,20 @@ header {
 }
 
 .project-link {
-  display: block;
-  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
   background: #f8f9fa;
   color: #2d3748;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   border-bottom: 1px solid #e2e8f0;
   transition: background-color 0.2s ease;
+  min-height: 3rem;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .project-link:hover {
@@ -50,6 +57,7 @@ header {
 .project-link svg {
   margin-left: 0.5rem;
   font-size: 0.875rem;
+  flex-shrink: 0;
 }
 
 .project-img {
@@ -57,6 +65,7 @@ header {
   position: relative;
   overflow: hidden;
   aspect-ratio: 16/9;
+  max-height: 200px;
 }
 
 .project-image {
@@ -75,6 +84,7 @@ header {
   .projects {
     grid-template-columns: 1fr;
     padding: 1rem;
+    gap: 1rem;
   }
   
   header {
@@ -82,7 +92,16 @@ header {
   }
   
   .project-container {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+  }
+
+  .project-link {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .project-img {
+    max-height: 180px;
   }
 }
 

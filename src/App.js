@@ -107,7 +107,7 @@ function App() {
         
         <div className="flex-1 flex justify-center md:justify-center mb-4 md:mb-0">
           <img 
-            src={profilePic} 
+            src={'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/IMG_1880%202.jpg?alt=media&token=5830d654-beca-421b-8f99-311b9283998d'} 
             alt="Jason Cornell" 
             className="w-24 h-24 md:w-36 md:h-36 rounded-full object-cover" 
           />
