@@ -6,7 +6,6 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import ProjectDetails from './ProjectDetails';
 
 // Assets
-import profilePic from './me good headshot.jpg';
 import './index.css';
 
 // Project Data
