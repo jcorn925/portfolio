@@ -15,41 +15,28 @@ const projects = [
     id: 1,
     name: 'Trybe',
     link: 'https://jointrybesocial.com/trybes',
-    image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FIMG_2588.PNG?alt=media&token=7b79998d-4e02-4cf1-a13f-564bd6e92418',
+    image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/IMG_8028.PNG?alt=media&token=6c2c5e82-f4fe-4669-90f2-4b1b0491a95e',
     purpose: 'Help people find groups of friends and group discounts for local businesses.',
-    demo: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FRPReplay_Final1721615522%20(1)%20(1).gif?alt=media&token=57080ab7-c5ff-4fd2-8828-f3b916094322',
+    demo: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/ScreenRecording_06-08-2025%2015-42-20_1.gif?alt=media&token=4530b286-f0b6-4253-b1fa-aead9752f9bf',
     techStack: ['React', 'React Native', 'FastAPI (Python)', 'Firebase'],
     specialFeatures: [
       {
         name: 'Real-time Chat',
-        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FIMG_2585.PNG?alt=media&token=3f8fe94c-6d38-4ffa-9ddc-ac41e62d23b9',
-        description: 'Allows users to chat in real-time with group members.'
+        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/IMG_8032.PNG?alt=media&token=6863f4b6-7a9f-478f-b514-58f8a5720e1a',
       },
       {
-        name: 'Group-voted Join Requests',
-        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FIMG_2586.PNG?alt=media&token=f47b609c-2cc3-4247-af64-c150eff229df',
-        description: 'Allows Trybe members to have input on potential new members.'
+        name: 'Trybe Profiles',
+        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Screenshot%202025-06-08%20at%203.39.26%E2%80%AFPM.jpeg?alt=media&token=97e79330-a77f-4d8e-b640-bc3f8ce8f68c',
       },
       {
-        name: 'Trybe to Trybe Matching',
-        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FIMG_2587.PNG?alt=media&token=7d9e37d0-4bfd-4aaf-8751-6655a83399d9',
-        description: 'Allows Trybes to match with other Trybes to create mega-groupchats and expand social circles.'
+        name: 'User Profiles',
+        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/IMG_8039.PNG?alt=media&token=6c5e923e-e46b-4f0f-a9d8-da7f6b8b8ab2',
       },
       {
-        name: 'Personal Message Hub',
-        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FIMG_2589.PNG?alt=media&token=f85a2675-f18b-4a9b-8295-d091815e7d2d',
-        description: 'Centralizes all personal messages to facilitate 1-1 communication and Trybe joining.'
+        name: 'Memories',
+        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/IMG_8029.PNG?alt=media&token=8df4091b-90c1-4a12-986a-f4097498b574',
+        description: 'Video/Image memories delivered with Cloudflare CDN.'
       },
-      {
-        name: 'Saving Users',
-        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FIMG_2590.PNG?alt=media&token=3841002b-53e6-4138-aa3b-725c97062f0a',
-        description: 'Presents other users based on proximity to save for more intelligent new Trybe recommendations'
-      },
-      {
-        name: 'Saving Trybes',
-        image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Trybe%2FIMG_2591.PNG?alt=media&token=e1ef8f0b-0858-464a-b57d-143e667c3b47',
-        description: 'Presents other Trybes based on proximity to save for future join requests'
-      }
     ]
   },
   {
@@ -57,7 +44,7 @@ const projects = [
     name: 'LearnGPT',
     link: 'https://learn-gpt-seven.vercel.app/',
     image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/LearnGPT%2FScreenshot%202024-07-22%20095318.png?alt=media&token=7fbf1992-df1c-42f7-abc2-69b6ab526d4f',
-    purpose: 'A platform that uses AI to enhance learning by intelligently suggesting relevant info to topic inputs.',
+    purpose: 'An AI-powered tool to enhance learning by intelligently suggesting relevant info to topic inputs.',
     demo: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/LearnGPT%2Fcopy_7003F858-E31E-472C-B1E5-8DC65225D774.gif?alt=media&token=186c1914-51ad-4792-9825-d315a35d2121',
     techStack: ['React.js', 'Next.js', 'OpenAI'],
     specialFeatures: [
@@ -70,6 +57,16 @@ const projects = [
   },
   {
     id: 3,
+    name: 'Splvts',
+    link: 'https://splvts.com/',
+    image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/IMG_8034.png?alt=media&token=f1ae70cd-9e5b-4e0c-b781-34acba912265',
+    purpose: 'Automatic payments from Creators to Managers, powered by Plaid Webhooks.',
+    demo: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/IMG_8035.png?alt=media&token=53be81a0-6e37-476d-bbd9-4e022978823f',
+    techStack: ['React.js', 'Node.js', 'Firebase'],
+    specialFeatures: []
+  },
+  {
+    id: 4,
     name: 'Aura',
     link: 'https://aura-demo.vercel.app/',
     image: 'https://firebasestorage.googleapis.com/v0/b/aura-86da0.appspot.com/o/Aura%2FScreenshot%202024-07-22%20101019.png?alt=media&token=20a6aab8-55b9-44c8-85b3-a49314953ba1',

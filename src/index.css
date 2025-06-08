@@ -82,6 +82,18 @@ body {
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: center;
+}
+
+.project-link svg {
+  margin-left: 4px;
+  flex-shrink: 0;
 }
 
 .project-link:hover {
