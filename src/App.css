@@ -2,20 +2,39 @@
 .App {
   min-height: 100vh;
   background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto 0 auto;
   background: linear-gradient(to right, #ffffff, #f8f9fa);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .w-full.flex.flex-col.items-center.text-center.px-2 {
+  background: #fff;
+  border-radius: 16px;
+  border: 2px solid #2563eb;
+  box-shadow: 0 6px 24px rgba(37,99,235,0.08), 0 1.5px 4px rgba(37,99,235,0.06);
+  padding: 1.5rem 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  padding: 1.5rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
 }
 
 /* Desktop: horizontal row */
@@ -23,26 +42,30 @@ header {
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
+    align-items: flex-start;
     justify-content: center;
+    gap: 2rem;
   }
 }
 
 .project-container {
-  background: #fffbe6;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  border-radius: 16px;
+  border: 2px solid #2563eb;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08), 0 1.5px 4px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
   display: flex;
   flex-direction: column;
-  padding-top: 1.5rem;
-  border-top: none;
+  align-items: center;
+  max-width: 340px;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .project-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12), 0 3px 8px rgba(0,0,0,0.10);
+  border-color: #1d4ed8;
 }
 
 .project-link {
@@ -95,9 +118,11 @@ header {
 /* Responsive Design */
 @media (max-width: 768px) {
   .projects {
-    grid-template-columns: 1fr;
-    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
+    padding: 1rem;
   }
   
   header {

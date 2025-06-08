@@ -112,18 +112,18 @@ function App() {
           />
         </div>
         
-        <div className="flex-1 text-left md:pl-5">
-          <h2 className="text-2xl font-semibold mb-2">Professional Experience</h2>
+        <div className="w-full flex flex-col items-center text-center px-2">
+          <h2 className="text-2xl font-semibold mb-2">3 Years of Experience</h2>
           <ul>
             <li>
-              <strong>Meta:</strong> Internal Tool Platform Development
+              <strong>Sigma Connectivity:</strong> Meta Contract
               <br />
               <span className="text-sm">React.js, GraphQL, Hack (PHP)</span>
             </li>
             <li className="mt-2">
-              <strong>ESPN:</strong> AI Chatbot
+              <strong>Accenture:</strong> Meta/ESPN Contracts
               <br />
-              <span className="text-sm">Svelte.js, Node.js, OpenAI, AzureNLP</span>
+              <span className="text-sm">Svelte.js, Node.js, OpenAI, AzureNLP, React.js, GraphQL, Hack (PHP)</span>
             </li>
           </ul>
         </div>
